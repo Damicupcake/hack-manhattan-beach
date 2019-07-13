@@ -1,0 +1,147 @@
+* {
+  z-index: 100;
+}
+body {
+    font-family: "Avenir", Calibri;
+    margin: 0px;
+    background: #d3d3d3;
+    background-image: linear-gradient(to bottom right,#d3d3d3, #cabec0);
+  }
+  .hacs {
+    color: #ED735C;
+  }
+  .beach {
+    color: #C0C0C0;
+  }
+  .heading {
+    font-size: 3em;
+    animation-duration: 3s;
+    animation-name: fading-heading; 
+  }
+  @keyframes fading-heading {
+    from {opacity: 0;}
+    to {opacity 1}
+  }
+  .navbar-div {
+    width: 100%;
+    height: 7.2px;
+    background: #ffffff;
+    opacity: 1;
+    z-index: 200;
+  }
+  .sub-heading {
+    animation-name: fading-sub-heading;
+    animation-delay: 3s;
+  }
+  @keyframes fading-sub-heading {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  .member-span {
+    color: #003366;
+  }
+  .header {
+    text-align: center;
+    font-family: Avenir;
+    width: 95%;
+    background-image: linear-gradient(to bottom right,#F9DED8, #ffcf9e);
+    border: 7.2px solid white;
+    animation-name: fading-block;
+    animation-duration 3s;
+  }
+  .member-div {
+    text-align: center;
+    font-family: Avenir;
+    width: 80%;
+    background-image: linear-gradient(to bottom right,#bdf9fa, #abf5f7);
+    border: 7.2px solid white;
+    animation-name: fading-block;
+    animation-duration 3s;
+  }
+  .why-span {
+    color: #fffaf0;
+  }
+  .why {
+    text-align: center;
+    font-family: Avenir;
+    width: 80%;
+    background-image: linear-gradient(to bottom right,#ff9ea8, #ff6961);
+    border: 7.2px solid white;
+    animation-name: fading-block;
+    animation-duration 1s;
+  }
+  @keyframes fading-block {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  #header h1 {
+    padding: 10px;
+    font-family: Avenir;
+    font-weight: 850;
+    color: #ED735C;
+  }
+  
+  #header .hacs {
+    color: #486D79;
+  }
+  
+  .emp {
+    color: #Eb5F48;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    border-width:1px 0;
+    list-style:none;
+    margin:0 auto;
+    padding:0;
+    text-align:center;    
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  li {
+    display: inline;
+  }
+  
+  li a {
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.75em;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .heading-div {
+    height: 5px;
+    background: #000;
+    animation-duration: 2.5s;
+    animation-name: heading-div;
+  }
+
+  @keyframes heading-div {
+    from {width: 20%;}
+    to {width: 100%;}
+  }
+
+  .contacts {
+    style: inline-block;
+  }
+
+  .profile {
+    border-radius: 16%;
+    border: 5px solid #fff;
+  }
